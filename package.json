@@ -1,0 +1,32 @@
+{
+  "name": "tarea_ejemplo_uso_streams",
+  "version": "1.0.0",
+  "description": "Tarea Módulo 4 Uso de Streams con Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarinaCarrascoT/Tarea_Ejemplo_Uso_Streams.git"
+  },
+  "keywords": [
+    "Node",
+    "JS",
+    "Streams",
+    "read",
+    "write",
+    "duplex",
+    "y",
+    "transform"
+  ],
+  "author": "Karina Carrasco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarinaCarrascoT/Tarea_Ejemplo_Uso_Streams/issues"
+  },
+  "homepage": "https://github.com/KarinaCarrascoT/Tarea_Ejemplo_Uso_Streams#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
