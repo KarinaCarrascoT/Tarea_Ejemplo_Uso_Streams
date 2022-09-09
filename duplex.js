@@ -1,5 +1,10 @@
+//Duplex: streams que trabaja streams de escritura y lectura.
+//con Throttle (demora) y pipe (canalización) de los datos
+//para dar tiempo al manejo de chunk (pedazos) del stream
+
 const {Duplex, PassThrough} = require('stream');
 const {createReadStream, createWriteStream} = require('fs');
+const { domainToASCII } = require('url')
 const readStream = createReadStream('./origen/video.mp4');
 const writeStream = createWriteStream('./destino/copy.mp4');
 
