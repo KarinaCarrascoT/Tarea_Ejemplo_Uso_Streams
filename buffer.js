@@ -12,4 +12,4 @@ http.createServer((req, res) => {
         res.end(data);
     })
 
-}).listen(3030, () => console.log('buffer - http://localhost:3030'));
+}).listen(3000, () => console.log('buffer - http://localhost:3030'));
