@@ -28,6 +28,7 @@
   "homepage": "https://github.com/KarinaCarrascoT/Tarea_Ejemplo_Uso_Streams#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "multiparty": "^4.2.3"
+    "multiparty": "^4.2.3",
+    "zlib": "^1.0.5"
   }
 }

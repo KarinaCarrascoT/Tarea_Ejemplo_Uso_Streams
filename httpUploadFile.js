@@ -1,3 +1,17 @@
+/* 
+httpUploadFile.js
+
+Subir archivo seleccionado a una ruta fija
+Utilizando ReadStream, WriteStream con la librería multiparty para el upload
+Crea un servidor que prepara html para la operación de selección y Upload de archivo 
+por el puerto 5050
+
+Instalar npm -i multiparty
+Ejecutar el servidor: node httpUploadFile.js
+En el navegador: http://localhost:5050
+
+*/
+
 const {createServer} = require('http');
 const {stat, createReadStream, createWriteStream} = require('fs');
 const {promisify} = require('util');

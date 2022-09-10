@@ -1,6 +1,16 @@
-//Duplex: streams que trabaja streams de escritura y lectura.
-//con Throttle (demora) y pipe (canalización) de los datos
-//para dar tiempo al manejo de chunk (pedazos) del stream
+/* 
+duplex.js
+
+Ejercicio que copia un archivo mp4 de la carpeta origen a la carpeta destino
+dividendo en pedazos e imprimiendo el tamaño acumulado.
+
+Duplex: Trabaja streams de escritura y lectura.
+con Throttle (demora) y pipe (canalización) de los datos
+para dar tiempo al manejo de chunk (pedazos) del stream
+
+Ejecutar: node duplex.js
+
+*/
 
 const {Duplex, PassThrough} = require('stream');
 const {createReadStream, createWriteStream} = require('fs');
